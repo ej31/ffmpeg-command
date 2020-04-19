@@ -25,7 +25,7 @@ make install
 ### Export Library Package (use `apt-get install`)
 - My 'ffmpeg dependency package list' is below.
 - Since the cleanup has not been completed yet, I put up the entire list first.
-- If you want to install all of the list below in one run, see [here](https://github.com/ej31/ffmpeg-command/blob/master/deps.sh).
+- If you want to install all of the list below in one run, see [here](https://github.com/ej31/ffmpeg-command/blob/master/script/deps.sh).
 
 ```
 # Choose package if you need
