@@ -1,0 +1,121 @@
+
+name: Custom issue template
+description: Describe this issue template's purpose here.
+title: ''
+labels: ''
+assignees: ''
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **버그 설명**  
+        버그에 대한 명확하고 간결한 설명해주세요.
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: 버그 설명
+      description: 버그에 대한 명확하고 간결한 설명을 작성해주세요.
+      placeholder: 여기에 버그에 대한 설명을 입력하세요.
+
+  - type: markdown
+    attributes:
+      value: |
+        **재현하는 방법**  
+        동작을 재현하는 단계를 작성해주세요.
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: 재현하는 방법
+      description: 재현하는 단계(1. 2. 3...)를 작성해주세요.
+      placeholder: 1. Go to '...'\n2. Click on '...'\n3. Scroll down to '...'\n4. See error
+
+  - type: markdown
+    attributes:
+      value: |
+        **예상한 동작**  
+        예상했던 일에 대한 설명을 작성해주세요.
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: 예상한 동작
+      description: 예상했던 동작에 대해 간결히 작성해주세요.
+      placeholder: 여기에 예상 동작을 입력하세요.
+
+  - type: markdown
+    attributes:
+      value: |
+        **스크린샷**  
+        문제를 설명하는 데 도움이 되는 스크린샷을 추가하세요.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 스크린샷
+      description: 스크린샷이나 영상 첨부 관련 정보를 작성해주세요.
+      placeholder: 여기에 스크린샷/영상 관련 내용을 입력하세요.
+
+  - type: markdown
+    attributes:
+      value: |
+        **데스크톱 정보**  
+        다음 정보를 작성해주세요:
+  - type: input
+    id: desktop_os
+    attributes:
+      label: OS
+      description: 사용 중인 OS를 입력하세요. (예: iOS)
+      placeholder: iOS
+  - type: input
+    id: desktop_browser
+    attributes:
+      label: Browser
+      description: 사용 중인 브라우저를 입력하세요. (예: chrome, safari)
+      placeholder: chrome
+  - type: input
+    id: desktop_version
+    attributes:
+      label: Version
+      description: 브라우저 버전을 입력하세요. (예: 22)
+      placeholder: 22
+
+  - type: markdown
+    attributes:
+      value: |
+        **스마트폰 정보**  
+        다음 정보를 작성해주세요:
+  - type: input
+    id: smartphone_device
+    attributes:
+      label: Device
+      description: 사용 중인 기기를 입력하세요. (예: iPhone6)
+      placeholder: iPhone6
+  - type: input
+    id: smartphone_os
+    attributes:
+      label: OS
+      description: 사용 중인 OS를 입력하세요. (예: iOS8.1)
+      placeholder: iOS8.1
+  - type: input
+    id: smartphone_browser
+    attributes:
+      label: Browser
+      description: 사용 중인 브라우저를 입력하세요. (예: chrome, safari)
+      placeholder: chrome
+  - type: input
+    id: smartphone_version
+    attributes:
+      label: Version
+      description: 브라우저 버전을 입력하세요. (예: 22)
+      placeholder: 22
+
+  - type: markdown
+    attributes:
+      value: |
+        **추가적인 내용**  
+        문제에 대한 다른 컨텍스트를 작성해주세요.
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: 추가적인 내용
+      description: 문제와 관련된 추가 정보를 입력하세요.
+      placeholder: 여기에 추가 정보를 입력하세요.
